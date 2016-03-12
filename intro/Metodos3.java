@@ -13,6 +13,7 @@ public class Metodos3 {
     System.out.println(b); // 4
     System.out.println(b == 4); // true
     int q = dobro(dobro(dobro(2)));
+    System.out.println("a variável q vale " + q);
     System.out.println(q == 16);
   }
 }

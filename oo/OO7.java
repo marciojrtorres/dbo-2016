@@ -16,6 +16,5 @@ public class OO7 {
     System.out.println(h1.horas == 18); // 18
     System.out.println(h2.horas == 18); // 6
 
-
   }
 }

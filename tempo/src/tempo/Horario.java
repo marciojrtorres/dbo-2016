@@ -14,6 +14,7 @@ public class Horario {
     this.horas = horas;
     this.minutos = minutos;
     this.segundos = segundos;
+    
   }
 
   // método

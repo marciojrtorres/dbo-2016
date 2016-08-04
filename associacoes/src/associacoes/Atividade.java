@@ -11,9 +11,9 @@ public abstract class Atividade {
 	// atributos/campos
 	private String descricao;
 	private int vagas;
-	
+
 	private int slot = 0;
-	
+
 	// Uma Palestra pode ter vários participantes
 	// **Palestra tem Participantes** --> AGREGAÇÃO
 	// Palestra agrega Participantes
@@ -23,7 +23,7 @@ public abstract class Atividade {
 		setVagas(vagas);
 		setDescricao(descricao);
 	}
-	
+
 	// comandos são void (geralmente)
 	public void inscrição(Participante p) {
 		if (getVagasDisponiveis() == 0) {
@@ -43,7 +43,7 @@ public abstract class Atividade {
 		}
 		participantes[slot++] = p;
 	}
-	
+
 	// get/set leitura/gravação
 	public void setVagas(int vagas) {
 		if (vagas < 5) {
@@ -52,7 +52,7 @@ public abstract class Atividade {
 		this.vagas = vagas;
 		this.participantes = new Participante[vagas];
 	}
-	
+
 	public String getDescricao() {
 		return descricao;
 	}
@@ -67,7 +67,7 @@ public abstract class Atividade {
 
 	@Override
 	public String toString() {
-		return descricao + " " + vagas + 
+		return descricao + " " + vagas +
 				java.util.Arrays.toString(participantes);
 	}
 
@@ -77,15 +77,3 @@ public abstract class Atividade {
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-

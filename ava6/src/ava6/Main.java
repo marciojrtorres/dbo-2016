@@ -3,7 +3,6 @@ package ava6;
 public class Main {
 
 	public static void main(String[] args) {
-		
 		// construtores vazio
 		Date d = new Date();
 		// data mínima
@@ -231,7 +230,7 @@ public class Main {
 		// ----------- até aqui 1.3
 		*/
 		// http://marciojrtorres.github.io/
-		
+
 	}
 
 }

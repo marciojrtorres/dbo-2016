@@ -8,6 +8,5 @@ public class ContaCorrente extends ContaAbstrata {
 		this.saldo -= 10.0;
 	}
 
-	
 
 }
